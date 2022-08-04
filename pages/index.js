@@ -28,7 +28,6 @@ const Home = () => {
       <button
         onClick={() => {
           setTodo(newTodo);
-          console.log(count);
           setInput("");
         }}
       >
